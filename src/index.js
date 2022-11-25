@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDom from 'react-dom';
 import App from './App'
 import './style.css'
 import { BrowserRouter } from "react-router-dom"
@@ -11,4 +11,5 @@ root.render(
             <App />
         </BrowserRouter >
     </React.StrictMode>
+
 )
