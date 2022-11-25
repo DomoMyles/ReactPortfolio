@@ -47,3 +47,130 @@ body {
 .nav li:active {
     background-color: #555;
 }
+
+body {
+    display: column;
+    flex-direction: row;
+    line-height: 2.3;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    background-color: #654321;
+    border: 0px solid;
+    font-size: 50px;
+}
+
+nav ul {
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    min-width: 40%px;
+    margin: 0;
+    padding: 0 10%;
+    font-size: 30px;
+    background-color: rgb(189, 189, 189);
+    list-style: none;
+}
+
+nav img {
+    width: 100%;
+    display: column;
+    flex-direction: row;
+    line-height: 3
+}
+
+/* Right side ones */
+
+.rightPic {
+    background-color: #f1f1f1;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+.rightPic h1 {
+    margin-top: 50%;
+    display: inline;
+    position: relative;
+    padding: 0px 5px 5px 30px;
+    width: 100%;
+    font-size: 50px;
+}
+
+.rightPic h1 img {
+    float: right;
+    clear: left;
+    position: relative;
+    width: 40%;
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #ccc;
+    gap: 50px;
+}
+
+.rightPic h1 img p {
+    text-align: right;
+    margin: 1%;
+}
+
+.rightPic h1 img:hover {
+    width: 45%;
+    border: solid;
+    border-color: red;
+    margin-left: 0%;
+}
+
+/*Left side ones */
+
+
+.leftPic {
+    background-color: #f1f1f1;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+.leftPic h1 {
+    margin-top: 50%;
+    display: inline;
+    position: relative;
+    padding: 0px 50px 5px 30px;
+    width: 100%;
+    font-size: 50px;
+}
+
+.leftPic h1 img {
+    float: left;
+    clear: right;
+    position: relative;
+    width: 40%;
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.leftPic p {
+    margin-right: 5%;
+
+}
+
+.leftPic h1 img:hover {
+    border: solid;
+
+    border-color: red;
+
+}
+
+
+footer {
+    background-color: grey;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border: solid;
+    list-style: none;
+}
