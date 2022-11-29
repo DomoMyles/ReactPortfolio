@@ -15,16 +15,19 @@ function App() {
     return (
         <>
         <BrowserRouter>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <Routes>
+        <div class = "navbar">
+        <NavLink id="Home" to="/">Home</NavLink>
+        <NavLink id ="About" to="/about">About</NavLink>
+        <NavLink id ="Contact" to="/contact">Contact</NavLink>
+        <NavLink id ="Projects" to="/projects">Projects</NavLink>
+        </div>
+        <Routes class>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element ={<Contact />} />
         <Route exact path="/projects" element={<Projects />} />
         </Routes>
+        
         </BrowserRouter>
         </>
     )

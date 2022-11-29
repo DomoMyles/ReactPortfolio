@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    background-color: lime;
+}
+
+#Home,
+#About,
+#Contact,
+#Projects {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
