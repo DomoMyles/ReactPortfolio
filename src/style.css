@@ -117,7 +117,6 @@ nav img {
 }
 
 .rightPic h1 img:hover {
-    width: 45%;
     border: solid;
     border-color: red;
     margin-left: 0%;

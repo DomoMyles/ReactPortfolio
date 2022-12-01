@@ -1,13 +1,21 @@
 .navbar {
     display: flex;
-    background-color: lime;
+    background-color: grey;
 }
 
 #Home,
 #About,
 #Contact,
 #Projects {
+    font-size: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+a:hover {
+    background-color: #555;
+    display: block;
+    width: auto;
+    text-align: center;
 }
