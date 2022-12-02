@@ -1,8 +1,15 @@
+
+import GroupProjectPicture from '../pic/GroupProjectPicture.JPG'
+import Image5 from '../pic/Image5.JPG'
+import image6 from '../pic/image6.JPG'
+import picture6 from '../pic/picture6.JPG'
+
+
 export default function Projects() {
     return <h1>
         <div id="Projects" class="rightPic">
             <h1>Html Projects
-                    <img src="assets/pic/Image5.JPG" alt="DomoFace" />
+                    <img src={Image5} alt="DomoFace" />
             </h1>
             <p>
                 This website is a website I made back in highschool while i was in a coding class. I built this in
@@ -16,7 +23,7 @@ export default function Projects() {
         <div id="Games" class="leftPic">
             <h1>Video Games
 
-                <img src="assets/pic/image6.JPG" alt="DomoFace" />
+                <img src={image6} alt="DomoFace" />
 
 
             </h1>
@@ -30,7 +37,7 @@ export default function Projects() {
         <div id="WES" class="rightPic">
             <h1>Proximity
                 <a href="Milo_s website - Copy/HTML website.html" target="_blank">
-                    <img src="assets/pic/GroupProjectPicture.JPG" alt="MapWebsite similar to google maps" />
+                    <img src={GroupProjectPicture} alt="MapWebsite similar to google maps" />
                 </a>
             </h1>
             <p>
@@ -60,7 +67,7 @@ export default function Projects() {
         <div id="WES" class="leftPic">
             <h1>TAC
                 <a href="https://enigmatic-fortress-43863.herokuapp.com/home" target="_blank">
-                    <img src="assets\pic\picture6.JPG" alt="picture of desk with stuff on it" />
+                    <img scr={picture6} alt="picture of desk with stuff on it" />
                 </a>
 
             </h1>

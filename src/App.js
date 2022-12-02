@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import './app.css';
+import GroupProjectPicture from './pic/GroupProjectPicture.JPG'
 
 
 
