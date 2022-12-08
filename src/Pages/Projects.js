@@ -6,33 +6,36 @@ import picture7 from '../pic/picture7.JPG'
 
 
 export default function Projects() {
-    return <h1>
+    return <h1 class = "page">
         <div id="Projects" class="rightPic">
             <h1>Html Projects
-                    <img src={Image5} alt="DomoFace" />
+                <img src={Image5} alt="Website" />
+                <a href="Milo_s website - Copy/HTML website.html" target="_blank">
+                
+                </a>
             </h1>
             <p>
-                This website is a website I made back in highschool while i was in a coding class. I built this in
+                This website is a website I made back in highschool while I was in a coding class. I built this in
                 Notepad ++.
                 https://domomyles.github.io/PasswordGenerator/
             </p>
         </div>
-
+<br></br>
 
 
         <div id="Games" class="leftPic">
             <h1>Video Games
-
-                <img src={image6} alt="DomoFace" />
-
-
+                <img src={image6} alt="Video Game" />
             </h1>
             <p>
                 This is a game I made for a class in 2017 for a project in school.
+                I used GameMaker program to create this videogame over the course of 
+                about two years while in a class for web development we had available
+                to us in highschool called Gaming Animation Web Design.
             </p>
         </div>
 
-
+        <br></br>
 
         <div id="WES" class="rightPic">
             <h1>Proximity
@@ -56,28 +59,27 @@ export default function Projects() {
 
                 We used the Bulma framework to aid in our CSS organization and creation
                 Through the Google Maps Platform, we utilized various APIs from Maps, Routes, and Places
-                Navigated and edited extensive JavaScript code in order to utilized Google's Maps Platform API
+                Navigated and edited extensive JavaScript code in orde r to utilized Google's Maps Platform API
                 Used various pseudo variables to create custom color variables in the CSS, colors that follow a strict color
                 palette that matches our project presentation
             </p>
         </div>
-
-
+        <br></br>
 
         <div id="WES" class="leftPic">
             <h1>TAC
-                <a href="https://enigmatic-fortress-43863.herokuapp.com/home" target="_blank">
-                    <img scr={picture7} alt="picture ssof desk with stuff on it" />
+                <a href="https://enigmatic-fortress-43863.herokuapp.com/home">
+                <img src={picture7} alt="MapWebsite similar to google maps" />
                 </a>
 
             </h1>
             <p>
-                Description
+                
                 The Advertising Campaign (TAC), is a marketing webtool for administrators to promote their startup business.
                 This application provides a secure login, minimalistic user interface, and a commercial email marketing
                 service to send personalized emails to our customers.
 
-                Motovation
+                
                 Our motovation was to help the potential clients to promote their business by sending beautifully designed emails to the
                 subscribed customers. Importantly, users like our application.
             </p>

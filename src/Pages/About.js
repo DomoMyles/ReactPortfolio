@@ -1,12 +1,14 @@
-export default function About() {
-    return <h1>
-    <div id="Introduction" class="leftPic">
+import picture7 from '../pic/MePic.jpg'
 
-        <h1>Introduction<img src="assets/pic/image.1.png" alt="A picture of me" /></h1>
-        <p>
-            I got into web development in 2018 when I took a web development class.
+
+export default function About() {
+    return <h1 class = "page">
+    <h1 class="aboutH1">Introduction</h1>
+    <img class="meImg" src={picture7} alt="DomoFace" />
+    <p>
+      I got into web development in 2018 when I took a web development class.
             </p>
-            </div>
+            
 </h1>
 
 }

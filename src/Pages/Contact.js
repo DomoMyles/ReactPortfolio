@@ -1,5 +1,5 @@
 export default function Contact() {
-    return <h1>
+    return <h1 class = "page">
     <ul class="contact">
 
 <li>Discord: DomoMyles#6171</li>
