@@ -2,7 +2,7 @@
 import GroupProjectPicture from '../pic/GroupProjectPicture.JPG'
 import Image5 from '../pic/Image5.JPG'
 import image6 from '../pic/image6.JPG'
-import picture6 from '../pic/picture6.JPG'
+import picture7 from '../pic/picture7.JPG'
 
 
 export default function Projects() {
@@ -67,7 +67,7 @@ export default function Projects() {
         <div id="WES" class="leftPic">
             <h1>TAC
                 <a href="https://enigmatic-fortress-43863.herokuapp.com/home" target="_blank">
-                    <img scr={picture6} alt="picture of desk with stuff on it" />
+                    <img scr={picture7} alt="picture ssof desk with stuff on it" />
                 </a>
 
             </h1>
@@ -83,5 +83,4 @@ export default function Projects() {
             </p>
         </div>
     </h1>
-
 }

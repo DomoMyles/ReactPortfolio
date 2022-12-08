@@ -41,9 +41,9 @@ body {
 
 }
 
-.nav li:hover {
+/* .nav li:hover {
     background-color: #551;
-}
+} */
 .nav li:active {
     background-color: #555;
 }
@@ -116,12 +116,6 @@ nav img {
     margin: 1%;
 }
 
-.rightPic h1 img:hover {
-    border: solid;
-    border-color: red;
-    margin-left: 0%;
-}
-
 /*Left side ones */
 
 
@@ -157,16 +151,15 @@ nav img {
 
 }
 
-.leftPic h1 img:hover {
+/* .leftPic h1 img:hover {
     border: solid;
-
     border-color: red;
 
-}
+} */
 
 
 footer {
-    background-color: grey;
+    background-color: blue;
     width: 100%;
     font-size: 15px;
     text-align: center;
