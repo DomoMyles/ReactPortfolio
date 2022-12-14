@@ -3,14 +3,14 @@
 } */
 
 body {
-    margin: 0;
     display: flex;
     flex-direction: row;
+    margin: 0;
     line-height: 2.3;
+    scroll-behavior: smooth;
 }
 
 /* Right side ones */
-
 .rightPic {
     background-color: #f1f1f1;
     padding-left: 5%;
@@ -91,16 +91,7 @@ footer {
 }
 
 /* Main page */
-.mainH1{
-    font-style: italic;
-    text-align: center;
-    background-color: lightblue;
-}
 
-.meImg{
-    text-align: center;
-    width: 50%;
-}
 
 
 /* FOR MOBILE */

@@ -4,15 +4,48 @@
     position: fixed;
     width: 100%;
 }
-.page{
+/* .page{
     padding-top: 70px;
+} */
+
+.mainH1{
+    display: block;
+    margin-top: 3%;
+    font-style: italic;
+    text-align: center;
+    background-color: lightblue;
+    width: 100%;
 }
+
+.aboutH1{
+    display: block;
+    margin-top: 3%;
+    font-style: italic;
+    text-align: center;
+    background-color: lightblue;
+    width: 100%;
+}
+
+#aboutp {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.meImg{
+    display: block;
+    width: 20%;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 #Home,
 #About,
 #Contact,
 #Projects {
     font-size: 30px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,3 +57,31 @@
     width: auto;
     text-align: center;
 } */
+
+.custom-form {
+    display: block;
+    text-align: center;
+}
+
+input,
+textarea {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: black 2px solid;
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

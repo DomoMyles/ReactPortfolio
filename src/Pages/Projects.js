@@ -1,15 +1,16 @@
 
-import GroupProjectPicture from '../pic/GroupProjectPicture.JPG'
-import Image5 from '../pic/Image5.JPG'
-import image6 from '../pic/image6.JPG'
-import picture7 from '../pic/picture7.JPG'
+import image1 from '../pic/MyWebsite.JPG'
+import image2 from '../pic/GamePic.JPG'
+import image3 from '../pic/TacPic.JPG'
+import image4 from '../pic/GroupProjectPicture.JPG'
+import image5 from '../pic/EmployePic.png'
 
 
 export default function Projects() {
-    return <h1 class = "page">
-        <div id="Projects" class="rightPic">
+    return <div class = "projects">
+        <div class="rightPic">
             <h1>Html Projects
-                <img src={Image5} alt="Website" />
+                <img src={image1} alt="Website" />
                 <a href="Milo_s website - Copy/HTML website.html" target="_blank">
                 
                 </a>
@@ -25,7 +26,7 @@ export default function Projects() {
 
         <div id="Games" class="leftPic">
             <h1>Video Games
-                <img src={image6} alt="Video Game" />
+                <img src={image2} alt="Video Game" />
             </h1>
             <p>
                 This is a game I made for a class in 2017 for a project in school.
@@ -40,7 +41,7 @@ export default function Projects() {
         <div id="WES" class="rightPic">
             <h1>Proximity
                 <a href="Milo_s website - Copy/HTML website.html" target="_blank">
-                    <img src={GroupProjectPicture} alt="MapWebsite similar to google maps" />
+                    <img src={image4} alt="MapWebsite similar to google maps" />
                 </a>
             </h1>
             <p>
@@ -64,12 +65,13 @@ export default function Projects() {
                 palette that matches our project presentation
             </p>
         </div>
-        <br></br>
 
+        <br></br>
+        
         <div id="WES" class="leftPic">
             <h1>TAC
                 <a href="https://enigmatic-fortress-43863.herokuapp.com/home">
-                <img src={picture7} alt="MapWebsite similar to google maps" />
+                <img src={image3} alt="MapWebsite similar to google maps" />
                 </a>
 
             </h1>
@@ -84,5 +86,21 @@ export default function Projects() {
                 subscribed customers. Importantly, users like our application.
             </p>
         </div>
-    </h1>
+        <br></br>
+        <div id="WES" class="rightPic">
+            <h1>Proximity
+                <a href="Milo_s website - Copy/HTML website.html" target="_blank">
+                    <img src={image5} alt="Workers Picture" />
+                </a>
+            </h1>
+            <p>
+            This application will allow you to create a business worker layout in a way
+             where you have the manager and you can set associates of two ranks: Engineer
+              and Intern. They will be displayed with their Employee id and contact 
+              information. This would be great use in a small business environment.
+            </p>
+            https://domomyles.github.io/PasswordGenerator/
+        </div>
+        <br></br>
+    </div>
 }
