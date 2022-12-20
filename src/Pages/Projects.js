@@ -102,5 +102,33 @@ export default function Projects() {
             https://domomyles.github.io/PasswordGenerator/
         </div>
         <br></br>
+            <div id="WES" class="rightPic">
+            <h1>Proximity
+                <a href="Milo_s website - Copy/HTML website.html" target="_blank">
+                    <img src={image5} alt="Workers Picture" />
+                </a>
+            </h1>
+            <p>
+            This application will allow you to create a business worker layout in a way
+             where you have the manager and you can set associates of two ranks: Engineer
+              and Intern. They will be displayed with their Employee id and contact 
+              information. This would be great use in a small business environment.
+            </p>
+            https://domomyles.github.io/PasswordGenerator/
+        </div>
+        <br></br>
+        <div id="WES" class="leftPic">
+            <h1>Cookie Coder
+                <a href="https://cookie-coder.herokuapp.com/">
+                <img src={image8} alt="Cookie Coder website" />
+                </a>
+
+            </h1>
+            <p>
+            CookieCoder is a convenient app to store your most useful code snippets. You'll be able to copy tried and true snippets with ease and efficiency to any project
+
+            </p>
+        </div>
+        <br></br>
     </div>
 }
