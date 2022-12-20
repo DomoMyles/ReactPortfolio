@@ -4,6 +4,7 @@ import image2 from '../pic/GamePic.JPG'
 import image3 from '../pic/TacPic.JPG'
 import image4 from '../pic/GroupProjectPicture.JPG'
 import image5 from '../pic/EmployePic.png'
+import image8 from '../pic/CookiePic.png'
 
 
 export default function Projects() {
