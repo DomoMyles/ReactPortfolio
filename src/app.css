@@ -1,12 +1,19 @@
 .navbar {
     display: flex;
-    background-color: grey;
+    background-color: lightgrey;
     position: fixed;
     width: 100%;
 }
-/* .page{
+
+body {
+    background-image: url("./pic/block.png");
+    background-repeat: repeat-y repeat-z;
+  }
+
+.page{
     padding-top: 70px;
-} */
+    margin: 0% 2%;
+}
 
 .mainH1{
     display: block;
@@ -27,6 +34,7 @@
 }
 
 #aboutp {
+    margin: 10% 25%;
     font-size: larger;
     font-weight: bold;
     text-align: center;
@@ -85,3 +93,4 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+

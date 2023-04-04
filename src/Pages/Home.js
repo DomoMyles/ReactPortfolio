@@ -1,3 +1,5 @@
+import React from 'react';
+
 import picture7 from '../pic/Myself.jpg'
 
 

@@ -1,13 +1,16 @@
+import React from 'react';
 
 import image1 from '../pic/MyWebsite.JPG'
 import image2 from '../pic/GamePic.JPG'
 import image3 from '../pic/TacPic.JPG'
 import image4 from '../pic/GroupProjectPicture.JPG'
 import image5 from '../pic/EmployePic.png'
+import image8 from '../pic/EmployePic.png'
 
 
 export default function Projects() {
     return <div class = "projects">
+        <div class = "page">
         <div class="rightPic">
             <h1>Html Projects
                 <img src={image1} alt="Website" />
@@ -18,7 +21,6 @@ export default function Projects() {
             <p>
                 This website is a website I made back in highschool while I was in a coding class. I built this in
                 Notepad ++.
-                https://domomyles.github.io/PasswordGenerator/
             </p>
         </div>
 <br></br>
@@ -102,5 +104,19 @@ export default function Projects() {
             https://domomyles.github.io/PasswordGenerator/
         </div>
         <br></br>
+        <div id="WES" class="leftPic">
+            <h1>Cookie Coder
+                <a href="https://cookie-coder.herokuapp.com/">
+                <img src={image8} alt="Cookie Coder website" />
+                </a>
+
+            </h1>
+            <p>
+            CookieCoder is a convenient app to store your most useful code snippets. You'll be able to copy tried and true snippets with ease and efficiency to any project
+
+            </p>
+        </div>
+        <br></br>
+    </div>
     </div>
 }

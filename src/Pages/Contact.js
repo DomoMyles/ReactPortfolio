@@ -1,8 +1,9 @@
+//not use this page till later
 import React from 'react';
 
 export default function Contact() {
     return( 
-    <div>
+    <div class = "page">
     <div>
 
 <p>Discord: DomoMyles#6171</p>
