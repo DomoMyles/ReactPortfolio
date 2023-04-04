@@ -5,7 +5,11 @@ import image2 from '../pic/GamePic.JPG'
 import image3 from '../pic/TacPic.JPG'
 import image4 from '../pic/GroupProjectPicture.JPG'
 import image5 from '../pic/EmployePic.png'
+<<<<<<< HEAD
 import image8 from '../pic/EmployePic.png'
+=======
+import image8 from '../pic/CookiePic.png'
+>>>>>>> 5e9e085208a089685da17b9b24210775c86bc65f
 
 
 export default function Projects() {
@@ -117,6 +121,9 @@ export default function Projects() {
             </p>
         </div>
         <br></br>
+<<<<<<< HEAD
     </div>
+=======
+>>>>>>> 5e9e085208a089685da17b9b24210775c86bc65f
     </div>
 }
