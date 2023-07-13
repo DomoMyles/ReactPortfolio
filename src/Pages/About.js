@@ -17,6 +17,7 @@ export default function About() {
         In highschool I took a two year class in Gaming Animation Web Design which is where I found my passion for coding.
         from there i would go on to college at Plymouth state university for a single year. 
       I got into web development in 2018 when I took a web development class.
+      There is no updog
       </p>
     {/* <h1 class="aboutH1">Introduction</h1>
 <div>    
