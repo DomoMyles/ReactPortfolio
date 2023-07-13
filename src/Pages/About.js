@@ -15,9 +15,8 @@ export default function About() {
         By now I feel I am ready to look into programing as a career where I can use my skills I have aquired. <br></br>
         In my off time I will often dabble in Unity, Blender and GameMaker, working on some game developement. 
         In highschool I took a two year class in Gaming Animation Web Design which is where I found my passion for coding.
-        from there i would go on to college at Plymouth state university for a single year. 
+        from there I would go on to college at Plymouth state university for a single year. 
       I got into web development in 2018 when I took a web development class.
-      There is no updog
       </p>
     {/* <h1 class="aboutH1">Introduction</h1>
 <div>    
